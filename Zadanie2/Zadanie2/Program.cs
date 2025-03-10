@@ -15,3 +15,16 @@ double getAvg(int[] integers)
     }
     return avg;
 }
+
+int getMax(int[] integers)
+{
+    int max;
+    for (int i = 0; i < integers.Length; i++)
+    {
+        if (max < integers[i])
+        {
+            max = integers[i];
+        }
+    }
+    return max;
+}
