@@ -6,12 +6,12 @@ Console.WriteLine("Modyfikacja 3");
 
 double getAvg(int[] integers)
 {
-    int sum = 0;
+    int sumOfnumbers = 0;
     double avg = 0;
    for (int i = 0; i <= integers.Length; ++i)
     {
-        sum += integers[i];
-        avg = sum / (i + 1);
+        sumOfnumbers += integers[i];
+        avg = sumOfnumbers / (i + 1);
     }
     return avg;
 }
